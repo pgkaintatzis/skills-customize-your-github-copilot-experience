@@ -8,23 +8,33 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
+    <a href="#assignment-content" class="nav-back">Skip to assignment content</a>
+
     <header class="assignment-header">
       <div class="container">
         <a href="../../index.html" class="nav-back">← Back to Assignments</a>
         <h1 id="assignment-title">Loading Assignment...</h1>
+        <p id="assignment-intro">Review the objective, complete each task, and submit your work before the due date.</p>
       </div>
     </header>
 
     <main class="main">
       <div class="container">
-        <div id="downloads-section" class="downloads-section" style="display: none">
-          <h3>📁 Assignment Files</h3>
+        <section id="downloads-section" class="downloads-section" style="display: none" aria-labelledby="resources-title">
+          <h2 id="resources-title">Assignment Files</h2>
+          <p>Download starter materials before beginning the tasks below.</p>
           <div id="download-links"></div>
-        </div>
+        </section>
 
-        <div id="assignment-content" class="assignment-content">
+        <section id="assignment-content" class="assignment-content" aria-live="polite">
           <div class="loading">Loading assignment content...</div>
-        </div>
+        </section>
+
+        <noscript>
+          <div class="error">
+            JavaScript is required to load assignment details. Please enable JavaScript and refresh this page.
+          </div>
+        </noscript>
       </div>
     </main>
 
