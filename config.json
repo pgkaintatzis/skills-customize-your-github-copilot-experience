@@ -77,6 +77,30 @@
           "type": "txt"
         }
       ]
+    },
+    {
+      "id": "personal-website",
+      "title": "Interactive Personal Website",
+      "description": "Build an interactive portfolio with HTML, CSS, and JavaScript",
+      "path": "assignments/personal-website",
+      "dueDate": "2026-05-24",
+      "attachments": [
+        {
+          "name": "HTML Starter",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Starter",
+          "file": "style.css",
+          "type": "css"
+        },
+        {
+          "name": "JavaScript Starter",
+          "file": "script.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }
